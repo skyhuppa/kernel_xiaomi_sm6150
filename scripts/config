@@ -218,9 +218,9 @@ while [ "$1" != "" ] ; do
 		;;
 
 	# undocumented because it ignores --file (fixme)
-	#--refresh)
-	#	yes "" | make oldconfig
-	#	;;
+	--refresh)
+		yes "" | make oldconfig
+		;;
 
 	*)
 		usage
